@@ -1,6 +1,6 @@
 
       // ===== Replace with your API key =====
-      const API_KEY = " AIzaSyARG-d8Y4u7SXSwSsQA4qSHLkwjXXmW8NE"
+      const API_KEY = " your api "
 
       // ===== Load chat from localStorage =====
       let messages = JSON.parse(localStorage.getItem("chat")) || [];
@@ -84,4 +84,5 @@
       }
 
       // ===== Load previous chat =====
+
       render();
